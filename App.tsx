@@ -1,18 +1,8 @@
-import { StyleSheet, Text, View } from 'react-native';
 import React from 'react';
+import Home from './src/screens/Home';
 
 const App = () => {
-  return (
-    <View style={styles.main}>
-      <Text>App</Text>
-    </View>
-  );
+  return <Home/>;
 };
 
 export default App;
-
-const styles = StyleSheet.create({
-  main: {
-    flex: 1,
-  },
-})
